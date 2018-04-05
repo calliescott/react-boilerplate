@@ -1,0 +1,22 @@
+@import "setup.scss";
+@import "variables.scss";
+@import "addGoal.scss";
+@import "currentGoal.scss";
+@import "goalItem.scss";
+
+body {
+    background: $mainBackground;
+    height: 100%;
+    width: 100%;
+    color: $mainBodyFont;
+}
+
+.hidden {
+    display: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+

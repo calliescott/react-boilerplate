@@ -1,0 +1,12 @@
+$mainBackground: #F3F5F7;
+$secondaryBackground: #FFFFFF;
+$mainBodyFont: black;
+
+@mixin button($buttonBkColor, $buttonBorder, $buttonColor) {
+    background-color: $buttonBkColor;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: 1px solid $buttonBorder;
+    border-radius: 12px;
+    color: $buttonColor;
+}
